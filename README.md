@@ -4,6 +4,8 @@
 
 ![](portada.png)
 
+#### Ver la Web: https://juancitopena.github.io/Solo_Leveling_API/
+
 El proyecto "Explorador de Información de Anime" es una aplicación web que utiliza la API de AniList para obtener datos detallados sobre anime y mostrarlos de manera interactiva en una página web. Esta aplicación permite a los usuarios buscar información sobre sus anime favoritos, incluyendo detalles sobre el título, descripción, puntuación promedio, episodios y personajes destacados.
 
 ### Narrativa 📖
