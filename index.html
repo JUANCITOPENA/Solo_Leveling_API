@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling Info</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Hoja de CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay loop muted id="background-video">
+        <source src="VIDEO.mp4" type="video/mp4">
+    </video>
+
+    <div class="container">
+        <h1 class="text-center mb-4">Solo Leveling Info</h1>
+        <div id="anime-info"></div>
+        <button id="search-button" class="btn btn-primary btn-block">Mostrar Fotos de los Personajes de API</button>
+        <div id="results" class="row"></div>
+    </div>
+
+    <!-- Botón para ver anime en Crunchyroll -->
+    <div id="crunchyroll-button-container" class="container mt-4 text-center" style="display: none;">
+        <a href="https://www.crunchyroll.com/watch/GQJUG34W2/im-used-to-it" class="btn btn-danger" target="_blank">Ver
+            Anime en Crunchyroll
+        </a>
+    </div>
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
