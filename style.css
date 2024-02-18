@@ -4,21 +4,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* Estilos para hacer el video responsive */
 #background-video {
     position: fixed;
     /* para que el video se mantenga en su lugar mientras se desplaza la página */
     top: 0;
     left: 0;
-    min-width: 100%;
-    /* cubrir toda la anchura de la pantalla */
-    min-height: 100%;
-    /* cubrir toda la altura de la pantalla */
-    z-index: -1;
-    /* colocar el video detrás de otros elementos */
+    width: 100%;
+    height: 100%;
+    /* Fondo para que el video no se vea recortado en pantallas pequeñas */
     object-fit: cover;
-    /* para que el video se ajuste y cubra todo el contenedor */
+    z-index: -1;
 }
-
 
 
 .container {
@@ -82,15 +79,19 @@ body {
     background-color: #0056b3;
 }
 
+/* Estilos adicionales para dispositivos móviles */
 @media (max-width: 575.98px) {
+    /* Ajustar el tamaño del video para dispositivos móviles */
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+    }
 
-    /* Dispositivos móviles */
+    /* Estilos para tarjetas en dispositivos móviles */
     .card {
         width: calc(100% - 20px);
-        /* Ajustar el ancho de la tarjeta al 100% del contenedor con un espacio entre las tarjetas */
-        margin-right: 20px;
-        /* Agregar un espacio entre las tarjetas */
+        margin-right: 10px;
+        margin-left: 10px;
         margin-bottom: 20px;
-        /* Agregar un espacio entre las tarjetas */
     }
 }
