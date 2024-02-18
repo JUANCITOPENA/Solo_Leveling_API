@@ -1,10 +1,10 @@
-### Proyecto: Explorador de Información de Anime 🌟
+## Proyecto: Explorador de Información de Anime 🌟
 
 ---
 
 ![](portada.png)
 
-#### Ver la Web: https://juancitopena.github.io/Solo_Leveling_API/
+### Ver la Web: https://juancitopena.github.io/Solo_Leveling_API/
 
 El proyecto "Explorador de Información de Anime" es una aplicación web que utiliza la API de AniList para obtener datos detallados sobre anime y mostrarlos de manera interactiva en una página web. Esta aplicación permite a los usuarios buscar información sobre sus anime favoritos, incluyendo detalles sobre el título, descripción, puntuación promedio, episodios y personajes destacados.
 
@@ -60,9 +60,9 @@ El proyecto está disponible para su visualización en vivo a través de GitHub 
 
 
 #### Licencia 📜
-
 ---
-Este proyecto está bajo la licencia [Nombre de la Licencia](URL de la Licencia).
+Este proyecto está bajo la licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE). 📝
+
 
 #### Contribución 🤝
 
